@@ -1,0 +1,44 @@
+
+###
+GET http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+  "title": "My First Blog",
+  "author": "Christopher",
+  "url": "https://example.com",
+  "likes": 5
+}
+
+
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+  "title": "eliza",
+  "author": "Chris",
+  "url": "http://example.com",
+  "likes": 7
+}
+
+
+###
+POST http://localhost:3002/api/users
+Content-Type: application/json
+
+{
+  "username": "chris",
+  "name": "Christopher",
+  "password": "12345"
+}
+
+###
+POST http://localhost:3002/api/users
+Content-Type: application/json
+
+{
+  "username": "chris2",
+  "name": "Christonew",
+  "password": "q1w2e"
+}
